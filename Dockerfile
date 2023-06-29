@@ -2,7 +2,7 @@ FROM alpine
 
 ENV HELM_URL=https://raw.githubusercontent.com/helm/helm/master/scripts/get-helm-3
 
-ENV OC_URL=https://github.com/okd-project/okd/releases/download/4.11.0-0.okd-2022-10-28-153352/openshift-client-linux-4.11.0-0.okd-2022-10-28-153352.tar.gz
+ENV OC_URL=https://github.com/okd-project/okd/releases/download/4.13.0-0.okd-2023-06-24-145750/openshift-client-linux-4.13.0-0.okd-2023-06-24-145750.tar.gz
 
 RUN apk update \
     && apk add --no-cache gcompat openssl bash curl gettext \
